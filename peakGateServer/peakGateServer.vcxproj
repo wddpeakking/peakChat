@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{82D24F25-432A-4543-967B-12CEC6DCC442}</ProjectGuid>
+    <ProjectGuid>{0BBF83DD-BE81-443B-9E60-D475C658B47E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>peakAVServer</RootNamespace>
+    <RootNamespace>peakGateServer</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,11 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="src\peakAVServer.cpp" />
+    <ClInclude Include="include\peakGateServer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\peakAVServer.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\peakGateServer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

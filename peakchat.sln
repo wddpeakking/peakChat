@@ -7,13 +7,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peaklib", "peaklib\peaklib.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakclient", "peakclient\peakclient.vcxproj", "{D280EE9F-81CC-4008-985A-AA549A0A1125}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakGateServer", "peakGate\peakGate.vcxproj", "{FA44905C-DE8C-4F8E-BEAA-3E139C81C9CF}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakchatServer", "peakchatServer\peakchatServer.vcxproj", "{9736F94D-8680-42BE-AF9F-12040FAC2FBF}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakFileServer", "peakFileServer\peakFileServer.vcxproj", "{38F514DA-1E68-4180-B430-016AF79D1A50}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakAVServer", "peakAVServer\peakAVServer.vcxproj", "{82D24F25-432A-4543-967B-12CEC6DCC442}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "peakGateServer", "peakGateServer\peakGateServer.vcxproj", "{0BBF83DD-BE81-443B-9E60-D475C658B47E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		{D280EE9F-81CC-4008-985A-AA549A0A1125}.Debug|Win32.Build.0 = Debug|Win32
 		{D280EE9F-81CC-4008-985A-AA549A0A1125}.Release|Win32.ActiveCfg = Release|Win32
 		{D280EE9F-81CC-4008-985A-AA549A0A1125}.Release|Win32.Build.0 = Release|Win32
-		{FA44905C-DE8C-4F8E-BEAA-3E139C81C9CF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{FA44905C-DE8C-4F8E-BEAA-3E139C81C9CF}.Debug|Win32.Build.0 = Debug|Win32
-		{FA44905C-DE8C-4F8E-BEAA-3E139C81C9CF}.Release|Win32.ActiveCfg = Release|Win32
-		{FA44905C-DE8C-4F8E-BEAA-3E139C81C9CF}.Release|Win32.Build.0 = Release|Win32
 		{9736F94D-8680-42BE-AF9F-12040FAC2FBF}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9736F94D-8680-42BE-AF9F-12040FAC2FBF}.Debug|Win32.Build.0 = Debug|Win32
 		{9736F94D-8680-42BE-AF9F-12040FAC2FBF}.Release|Win32.ActiveCfg = Release|Win32
@@ -45,6 +41,10 @@ Global
 		{82D24F25-432A-4543-967B-12CEC6DCC442}.Debug|Win32.Build.0 = Debug|Win32
 		{82D24F25-432A-4543-967B-12CEC6DCC442}.Release|Win32.ActiveCfg = Release|Win32
 		{82D24F25-432A-4543-967B-12CEC6DCC442}.Release|Win32.Build.0 = Release|Win32
+		{0BBF83DD-BE81-443B-9E60-D475C658B47E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BBF83DD-BE81-443B-9E60-D475C658B47E}.Debug|Win32.Build.0 = Debug|Win32
+		{0BBF83DD-BE81-443B-9E60-D475C658B47E}.Release|Win32.ActiveCfg = Release|Win32
+		{0BBF83DD-BE81-443B-9E60-D475C658B47E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
